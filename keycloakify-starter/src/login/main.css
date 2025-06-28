@@ -1,0 +1,126 @@
+/* body {
+    background: url("../login/img/background.svg");
+    background-size: cover;
+    height: 100%;
+} */
+
+ .login-pf body {
+    /* background: url("../login/img/logo.svg"); */
+    /* background: url("../img/background.svg"); */
+    background: url("../img/blob-scatter-haikei.svg");
+    /* background: url("../img/keycloak-bg.png"); */
+    background-size: cover;
+    height: 100%;
+} 
+
+img.kcLogoClass.login-pf-brand{
+    max-width:125px;
+
+}
+
+
+.login-pf-page .card-pf {
+    border-radius: 20px;
+    border-top: none;
+}
+
+.pf-c-button.pf-m-control:after {
+    border-radius: 0px 20px 20px 0px;
+}
+
+button.kcFormPasswordVisibilityButtonClass.pf-c-button.pf-m-control{
+    background-color: transparent;
+}
+
+.kcInputClass#password {
+    border-radius: 20px 0px 0px 20px;
+} 
+.kcFormSocialAccountListButtonClass.pf-c-button.pf-m-control.pf-m-block.kc-social-item.kc-social-gray.kcFormSocialAccountGridItem.pf-l-grid__item:after{
+    border-radius: 20px;
+}
+
+
+.pf-c-form-control, .kcInputGroup, .kcFormPasswordVisibilityButtonClass, a.pf-m-control, a.pf-m-control:after {
+    border-radius: 20px;
+}
+
+.pf-c-button#kc-login{
+    border-radius: 20px;
+    /* height: 3rem; */
+    padding: 12px;
+    background-color: #67B59B;
+}
+
+div#kc-info-wrapper{
+    border-radius: 20px;
+    color:white;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+/* li.kcLocaleListItemClass:hover{
+    background-color: rgba(4, 23, 40, 0.786);
+    
+}
+
+li.kcLocaleItemClass.pf-c-dropdown__menu-item:hover{
+    border-radius: 20px;
+    background-color: rgba(3, 20, 34, 0.786);
+} */
+
+.kcLabelClass.pf-c-form__label.pf-c-form__label-text{
+    margin-bottom: 10px;
+}
+
+.kcInputClass.pf-c-form-control{
+    padding: 22px;
+    color: white;
+}
+
+#kc-locale-dropdown button{
+    color: white;
+}
+
+span{
+    /* color: white; */
+}
+
+.login-pf a:hover{
+    background-color: rgba(3, 20, 34);
+    border-radius: 20px;
+}
+
+#kc-locale ul {
+    background-color: #121619;
+    border-radius: 20px;
+}
+
+div#kc-header-wrapper{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+div#kc-header{
+    margin-bottom: 30px;
+}
+/* .pf-c-form-control#password{
+    margin-right: -46px;
+} */
+
+.pf-c-button.pf-m-control:after,
+.card-pf,input, 
+.kcInputGroup, 
+.kcInputClass#password, 
+.kcInputClass#username,
+.kcFormPasswordVisibilityButtonClass,
+.pf-c-button.pf-m-control
+{
+    background-color: rgb(240 248 255 / 7%);
+}
+
+.card-pf{
+    color: white;
+}
+
+.kcFormPasswordVisibilityButtonClass{
+    background-color: transparent;
+} 
